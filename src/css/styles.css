@@ -18,3 +18,27 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.country-card,
+.card-item {
+  display: flex;
+  align-items: center;
+}
+
+.card-title,
+.card-item_text {
+  margin-left: 10px;
+}
+
+.country-card__item {
+  font-weight: 500;
+}
+.accent-card {
+  font-weight: 700;
+}
